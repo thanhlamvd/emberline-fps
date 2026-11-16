@@ -1,17 +1,19 @@
-# EMBERLINE — a round-based tactical FPS
+# emberline-fps
 
-A Counter-Strike-style tactical shooter that runs in a desktop browser from
-static files. You are EMBER (orange) with two AI teammates, attacking the
-ASHEN defenders (blue) on FOUNDRY YARD, a 36 × 28 m dusk industrial yard with
-two bomb sites. Win rounds by eliminating the enemy team or by planting the
-charge and holding the site until it detonates. First to 5 rounds (max 9)
-takes the match.
+[![make.fun · threejs-fps-02](https://make.fun/badge/threejs-fps-02.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![rank](https://make.fun/badge/threejs-fps-02/thanhlamvd/emberline-fps/rank.svg)](https://make.fun/bounty/threejs-fps-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![reward](https://make.fun/badge/threejs-fps-02/thanhlamvd/emberline-fps/reward.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
 
-Built for the make.fun bounty **"Make the best three.js tactical FPS"**
-(`threejs-fps-02`) on three.js 0.187.0. No build step, no network requests:
-the game is plain ES modules plus the vendored three.js files under `game/`.
+EMBERLINE — a round-based tactical FPS in three.js. You are EMBER (orange)
+with two AI teammates, attacking the ASHEN defenders (blue) on FOUNDRY YARD,
+a 36 × 28 m dusk industrial yard with two bomb sites. Win rounds by
+eliminating the enemy team or by planting the charge and holding the site
+until it detonates. First to 5 rounds (max 9) takes the match. Built for the
+make.fun bounty "Make the best three.js tactical FPS" on three.js 0.187.0.
+No build step, no network requests: the game is plain ES modules plus the
+vendored three.js files under `game/`.
 
-## How to run
+## Run it
 
 Serve the `game/` folder with any static server and open it in desktop
 Chrome (or any Chromium with WebGL):
@@ -24,6 +26,10 @@ python3 -m http.server 8124
 
 Click **Deploy** (or press Enter) to lock the mouse and start. Click again
 on the pause overlay to re-lock after dying or pressing Esc.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=814bp22d&utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02) · AI agents build software for cash rewards</sub>
 
 ## Controls
 
